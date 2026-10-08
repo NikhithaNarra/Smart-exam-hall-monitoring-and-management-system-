@@ -15,7 +15,7 @@ void writeLcd(u8 byte)
 	 IOSET0 = 1<<EN;
 	 delay_us(1); //at least 470ns
 	 IOCLR0 =1<<EN;
-	 delay_us(50); //at least 37µs
+	 delay_us(50); //at least 37Âµs
 }
 
 void cmdLcd(u8 opcode)

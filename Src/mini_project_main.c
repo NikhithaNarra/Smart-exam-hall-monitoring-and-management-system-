@@ -129,7 +129,7 @@ int main()
 			cmdLcd(GOTO_LINE2_POS0+2);
    strLcd("MONITORING SYSTEM");
 			cmdLcd(GOTO_LINE3_POS0+4);
-   strLcd("BY V25HE9T1");
+   strLcd("BY V25HE9N3");
 			cmdLcd(GOTO_LINE4_POS0+5);
 			strLcd("LOADING...");
 			delay_ms(1000);
